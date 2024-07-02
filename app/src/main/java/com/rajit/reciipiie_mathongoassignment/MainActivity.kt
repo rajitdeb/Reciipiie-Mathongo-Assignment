@@ -28,6 +28,8 @@ import com.rajit.reciipiie_mathongoassignment.ui.screens.home.components.MyBotto
 import com.rajit.reciipiie_mathongoassignment.ui.screens.home.components.MyTopAppBar
 import com.rajit.reciipiie_mathongoassignment.ui.screens.search.SearchScreen
 import com.rajit.reciipiie_mathongoassignment.ui.theme.ReciipiieMathongoAssignmentTheme
+import com.rajit.reciipiie_mathongoassignment.viewmodel.RecipeViewModel
+import org.koin.androidx.compose.getViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,9 +37,6 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ReciipiieMathongoAssignmentTheme {
-//                LoginScreen()
-//                SearchScreen()
-//                RecipeDetailScreen(AppConstants.sampleTextList[0])
                 MyScaffold()
             }
         }
@@ -45,7 +44,10 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun MyScaffold() {
+fun MyScaffold(viewModel: RecipeViewModel = getViewModel()) {
+
+    // ViewModel Check
+    viewModel.isALlOk()
 
     val navController = rememberNavController()
     val currentBackStackEntry by navController.currentBackStackEntryAsState()

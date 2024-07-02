@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.rajit.reciipiie_mathongoassignment.AppConstants
+import com.rajit.reciipiie_mathongoassignment.util.AppConstants
 
 @Composable
 fun EquipmentsSection() {

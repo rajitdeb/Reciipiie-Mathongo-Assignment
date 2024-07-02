@@ -47,7 +47,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.rajit.reciipiie_mathongoassignment.AppConstants
+import com.rajit.reciipiie_mathongoassignment.util.AppConstants
 import com.rajit.reciipiie_mathongoassignment.R
 import com.rajit.reciipiie_mathongoassignment.ui.screens.common_components.RecipeVerticalListItem
 import com.rajit.reciipiie_mathongoassignment.ui.screens.recipe_detail.components.CollapsibleListItemsSection

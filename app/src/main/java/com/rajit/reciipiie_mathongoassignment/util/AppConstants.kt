@@ -1,5 +1,6 @@
-package com.rajit.reciipiie_mathongoassignment
+package com.rajit.reciipiie_mathongoassignment.util
 
+import com.rajit.reciipiie_mathongoassignment.R
 import com.rajit.reciipiie_mathongoassignment.model.Equipment
 import com.rajit.reciipiie_mathongoassignment.model.Ingredients
 

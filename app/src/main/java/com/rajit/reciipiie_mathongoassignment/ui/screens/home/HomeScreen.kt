@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.rajit.reciipiie_mathongoassignment.AppConstants
+import com.rajit.reciipiie_mathongoassignment.util.AppConstants
 import com.rajit.reciipiie_mathongoassignment.ui.screens.home.components.AllRecipesListWithHeader
 import com.rajit.reciipiie_mathongoassignment.ui.screens.home.components.GreetingText
 import com.rajit.reciipiie_mathongoassignment.ui.screens.home.components.PopularRecipeCarouselWithHeader

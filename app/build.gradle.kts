@@ -77,4 +77,7 @@ dependencies {
 
     // Kotlinx Serialization Library
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+
+    // Koin for Android Compose
+    implementation("io.insert-koin:koin-androidx-compose:3.2.0")
 }
