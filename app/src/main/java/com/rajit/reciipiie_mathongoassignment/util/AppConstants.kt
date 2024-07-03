@@ -6,6 +6,9 @@ import com.rajit.reciipiie_mathongoassignment.model.Ingredients
 
 object AppConstants {
 
+    val apiKey = "41e9ae27ea474fbdb6cd35e4aa424637"
+    val BASE_URL = "https://api.spoonacular.com/"
+
     val sampleTextList = listOf<String>(
         "Shahi Paneer",
         "Paneer Kureta",
